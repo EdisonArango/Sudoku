@@ -35,7 +35,7 @@ public class Sudoku extends javax.swing.JFrame {
         panelSudoku1.setLayout(panelSudoku1Layout);
         panelSudoku1Layout.setHorizontalGroup(
             panelSudoku1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 417, Short.MAX_VALUE)
         );
         panelSudoku1Layout.setVerticalGroup(
             panelSudoku1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -54,7 +54,7 @@ public class Sudoku extends javax.swing.JFrame {
                     .addComponent(panelSudoku1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jButton1)
-                        .addGap(0, 346, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
