@@ -134,6 +134,7 @@ public class Ventana extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Sudoku");
+        setResizable(false);
 
         panelSudoku1.setBackground(new java.awt.Color(102, 102, 102));
 
