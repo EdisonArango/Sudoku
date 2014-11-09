@@ -12,20 +12,53 @@ public class Sudoku{
     }
     
     public int[][] aplicador(){
-        arbol=new Arbol(new NodoArbol(valores,null,null));
+        arbol=new Arbol(new NodoArbol(valores,0,0,null));
         
         NodoArbol actual=arbol.getRaiz();
-        int[][] valoresActual=actual.getEstado();
+        
+        int [][] valoresActual=valores.clone();
+                for (int k = 0; k < valores.length; k++) {
+                    valoresActual[k]=valores[k].clone();
+        }
+        
         //while(terminado(valoresActual)){
+        
+        //for (int k = 0; k < 200; k++) {
+            
+        
+        
             for (int i = 0; i < 9; i++) {
                 for (int j = 0; j < 9; j++) {
-                    if (valoresActual[i][j]==0) {
-                        valoresActual=this.aplicarRegla(valoresActual, i, j);
+                    if (valores[i][j]==0&&valoresActual[i][j]==valores[i][j]) {
+                        if (actual!=arbol.getRaiz()&&sePuedeAplicarRegla(valoresActual, i, j)==false) {
+                            valoresActual[i][j]=0;
+                            int [][] valoresClon=valoresActual.clone();
+                            for (int k = 0; k < valoresActual.length; k++) {
+                                valoresClon[k]=valoresActual[k].clone();
+                            }
+                            actual=actual.getAnterior();
+                            actual.setEstado(valoresClon);
+                                i=actual.iCambio;
+                                j=actual.jCambio-1;
+                        }
+                        else{
+                        valoresActual=aplicarRegla(valoresActual, i, j);
+                        int [][] valoresClon=valoresActual.clone();
+                            for (int k = 0; k < valoresActual.length; k++) {
+                                valoresClon[k]=valoresActual[k].clone();
+                            }
+                        actual.setSiguiente(new NodoArbol(valoresClon,i,j,actual));
+                        actual=actual.getSiguiente();
+                        }
                     }  
                 }
             }
-        return valoresActual;
+            
+            
         //}
+        //}
+        
+        return actual.getEstado();
     }
 
     public boolean terminado(int[][] estado) {
@@ -192,12 +225,28 @@ public class Sudoku{
     }
 
     public int[][] aplicarRegla(int[][] valores,int i,int j) {
-        for (int k = 1 ; k < 10; k++) {
-            valores[i][j]=k;
-            if (estadoValido(valores)) {
-                break;
-            }
+        int valor=valores[i][j];
+        for (int  k= 0;  k< 9-valor; k++) {
+           valores[i][j]++;
+           if (estadoValido(valores)) {
+               break;
+                
+           }
         }
         return valores;
+    }
+    
+    public boolean sePuedeAplicarRegla(int[][] valores,int i,int j){
+        int [][] values=valores.clone();
+        for (int k = 0; k < valores.length; k++) {
+            values[k]=valores[k].clone();
+        }
+        for (int  k= 0;  k< 9-valores[i][j]; k++) {
+           values[i][j]++;
+           if (estadoValido(values)) {
+                return true;
+           }
+        }
+        return false;
     }
 }

@@ -10,12 +10,14 @@ package Arbol;
  */
 public class NodoArbol {
     private int[][] estado;
+    public int iCambio,jCambio;
     private NodoArbol siguiente;
     private NodoArbol anterior;
 
-    public NodoArbol(int[][] estado, NodoArbol siguiente, NodoArbol anterior) {
+    public NodoArbol(int[][] estado, int iCambio, int jCambio, NodoArbol anterior) {
         this.estado = estado;
-        this.siguiente = siguiente;
+        this.iCambio = iCambio;
+        this.jCambio = jCambio;
         this.anterior = anterior;
     }
     

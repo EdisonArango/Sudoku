@@ -976,7 +976,14 @@ public class Ventana extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         for (int i = 0; i < botones.length; i++) {
             for (int j = 0; j < botones[0].length; j++) {
+                if (botones[i][j].isEnabled()) {
+                    //botones[i][j].setEnabled(false);
+                    botones[i][j].setText("");
+                    sudoku.valores[i][j]=0;
+                }
+                else{
                 botones[i][j].setEnabled(true);
+                }
             }
         }
     }//GEN-LAST:event_jButton2ActionPerformed
