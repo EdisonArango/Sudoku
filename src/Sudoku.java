@@ -47,6 +47,147 @@ public class Sudoku{
             }
             numeros.clear();
         }
+        
+        for (int i = 0; i < estado.length; i++) {
+            for (int j = 0; j < estado.length; j++) {
+                if (estado[j][i]!=0) {
+                    if(numeros.indexOf(estado[j][i])==-1){
+                    numeros.add(estado[j][i]);
+                }
+                else{
+                    return false;
+                }
+                }   
+            }
+            numeros.clear();
+        }
+        
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (estado[i][j]!=0) {
+                    if(numeros.indexOf(estado[i][j])==-1){
+                    numeros.add(estado[i][j]);
+                }
+                else{
+                    return false;
+                }
+                }
+            }
+        }
+            numeros.clear();
+            
+        
+        for (int i = 0; i < 3; i++) {
+            for (int j = 3; j < 6; j++) {
+                if (estado[i][j]!=0) {
+                    if(numeros.indexOf(estado[i][j])==-1){
+                    numeros.add(estado[i][j]);
+                }
+                else{
+                    return false;
+                }
+                }
+            }
+        }
+            numeros.clear();
+        
+            for (int i = 0; i < 3; i++) {
+            for (int j = 6; j < 9; j++) {
+                if (estado[i][j]!=0) {
+                    if(numeros.indexOf(estado[i][j])==-1){
+                    numeros.add(estado[i][j]);
+                }
+                else{
+                    return false;
+                }
+                }
+            }
+        }
+            numeros.clear();
+        
+            for (int i = 3; i < 6; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (estado[i][j]!=0) {
+                    if(numeros.indexOf(estado[i][j])==-1){
+                    numeros.add(estado[i][j]);
+                }
+                else{
+                    return false;
+                }
+                }
+            }
+        }
+            numeros.clear();
+        
+            for (int i = 3; i < 6; i++) {
+            for (int j = 3; j < 6; j++) {
+                if (estado[i][j]!=0) {
+                    if(numeros.indexOf(estado[i][j])==-1){
+                    numeros.add(estado[i][j]);
+                }
+                else{
+                    return false;
+                }
+                }
+            }
+        }
+            numeros.clear();
+        
+            for (int i = 3; i < 6; i++) {
+            for (int j = 6; j < 9; j++) {
+                if (estado[i][j]!=0) {
+                    if(numeros.indexOf(estado[i][j])==-1){
+                    numeros.add(estado[i][j]);
+                }
+                else{
+                    return false;
+                }
+                }
+            }
+        }
+            numeros.clear();
+        
+            for (int i = 6; i < 9; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (estado[i][j]!=0) {
+                    if(numeros.indexOf(estado[i][j])==-1){
+                    numeros.add(estado[i][j]);
+                }
+                else{
+                    return false;
+                }
+                }
+            }
+        }
+            numeros.clear();
+        
+            for (int i = 6; i < 9; i++) {
+            for (int j = 3; j < 6; j++) {
+                if (estado[i][j]!=0) {
+                    if(numeros.indexOf(estado[i][j])==-1){
+                    numeros.add(estado[i][j]);
+                }
+                else{
+                    return false;
+                }
+                }
+            }
+        }
+            numeros.clear();
+        for (int i = 6; i < 9; i++) {
+            for (int j = 6; j < 9; j++) {
+                if (estado[i][j]!=0) {
+                    if(numeros.indexOf(estado[i][j])==-1){
+                    numeros.add(estado[i][j]);
+                }
+                else{
+                    return false;
+                }
+                }
+            }
+        }
+            numeros.clear();
+        
         return true;
     }
 
