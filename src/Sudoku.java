@@ -1090,14 +1090,14 @@ public class Sudoku extends javax.swing.JFrame {
 
     public void cargarBotones(){
        botones[0][0]=b1;
-       botones[0][1]=b01;
-       botones[0][2]=b02;
-       botones[0][3]=b03;
-       botones[0][4]=b04;
-       botones[0][5]=b05;
-       botones[0][6]=b06;
-       botones[0][7]=b07;
-       botones[0][8]=b08;
+       botones[0][1]=b2;
+       botones[0][2]=b3;
+       botones[0][3]=b4;
+       botones[0][4]=b5;
+       botones[0][5]=b6;
+       botones[0][6]=b7;
+       botones[0][7]=b8;
+       botones[0][8]=b9;
        
        botones[1][0]=b10;
        botones[1][1]=b11;
@@ -1109,75 +1109,76 @@ public class Sudoku extends javax.swing.JFrame {
        botones[1][7]=b17;
        botones[1][8]=b18;
        
-       botones[2][0]=b20;
-       botones[2][1]=b21;
-       botones[2][2]=b22;
-       botones[2][3]=b23;
-       botones[2][4]=b24;
-       botones[2][5]=b25;
-       botones[2][6]=b26;
-       botones[2][7]=b27;
-       botones[2][8]=b28;
+       botones[2][0]=b19;
+       botones[2][1]=b20;
+       botones[2][2]=b21;
+       botones[2][3]=b22;
+       botones[2][4]=b23;
+       botones[2][5]=b24;
+       botones[2][6]=b25;
+       botones[2][7]=b26;
+       botones[2][8]=b27;
        
-       botones[3][0]=b30;
-       botones[3][1]=b31;
-       botones[3][2]=b32;
-       botones[3][3]=b33;
-       botones[3][4]=b34;
-       botones[3][5]=b35;
-       botones[3][6]=b36;
-       botones[3][7]=b37;
-       botones[3][8]=b38;
+       botones[3][0]=b28;
+       botones[3][1]=b29;
+       botones[3][2]=b30;
+       botones[3][3]=b31;
+       botones[3][4]=b32;
+       botones[3][5]=b33;
+       botones[3][6]=b34;
+       botones[3][7]=b35;
+       botones[3][8]=b36;
        
-       botones[4][0]=b40;
-       botones[4][1]=b41;
-       botones[4][2]=b42;
-       botones[4][3]=b43;
-       botones[4][4]=b44;
-       botones[4][5]=b45;
-       botones[4][6]=b46;
-       botones[4][7]=b47;
-       botones[4][8]=b48;
+       botones[4][0]=b37;
+       botones[4][1]=b38;
+       botones[4][2]=b39;
+       botones[4][3]=b40;
+       botones[4][4]=b41;
+       botones[4][5]=b42;
+       botones[4][6]=b43;
+       botones[4][7]=b44;
+       botones[4][8]=b45;
        
-       botones[5][0]=b50;
-       botones[5][1]=b51;
-       botones[5][2]=b52;
-       botones[5][3]=b53;
-       botones[5][4]=b54;
-       botones[5][5]=b55;
-       botones[5][6]=b56;
-       botones[5][7]=b57;
-       botones[5][8]=b58;
+       botones[5][0]=b46;
+       botones[5][1]=b47;
+       botones[5][2]=b48;
+       botones[5][3]=b49;
+       botones[5][4]=b50;
+       botones[5][5]=b51;
+       botones[5][6]=b52;
+       botones[5][7]=b53;
+       botones[5][8]=b54;
        
-       botones[6][0]=b60;
-       botones[6][1]=b61;
-       botones[6][2]=b62;
-       botones[6][3]=b63;
-       botones[6][4]=b64;
-       botones[6][5]=b65;
-       botones[6][6]=b66;
-       botones[6][7]=b67;
-       botones[6][8]=b68;
+       botones[6][0]=b55;
+       botones[6][1]=b56;
+       botones[6][2]=b57;
+       botones[6][3]=b58;
+       botones[6][4]=b59;
+       botones[6][5]=b60;
+       botones[6][6]=b61;
+       botones[6][7]=b62;
+       botones[6][8]=b63;
        
-       botones[7][0]=b70;
-       botones[7][1]=b71;
-       botones[7][2]=b72;
-       botones[7][3]=b73;
-       botones[7][4]=b74;
-       botones[7][5]=b75;
-       botones[7][6]=b76;
-       botones[7][7]=b77;
-       botones[7][8]=b78;
+       botones[7][0]=b64;
+       botones[7][1]=b65;
+       botones[7][2]=b66;
+       botones[7][3]=b67;
+       botones[7][4]=b68;
+       botones[7][5]=b69;
+       botones[7][6]=b70;
+       botones[7][7]=b71;
+       botones[7][8]=b72;
        
-       botones[8][0]=b80;
-       botones[8][1]=b81;
-       botones[8][2]=b82;
-       botones[8][3]=b83;
-       botones[8][4]=b84;
-       botones[8][5]=b85;
-       botones[8][6]=b86;
-       botones[8][7]=b87;
-       botones[8][8]=b88;
+       botones[8][0]=b73;
+       botones[8][1]=b74;
+       botones[8][2]=b75;
+       botones[8][3]=b76;
+       botones[8][4]=b77;
+       botones[8][5]=b78;
+       botones[8][6]=b79;
+       botones[8][7]=b80;
+       botones[8][8]=b81;
+       
    }
 
 }
