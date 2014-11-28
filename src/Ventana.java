@@ -140,32 +140,42 @@ public class Ventana extends javax.swing.JFrame {
 
         b.setBackground(new java.awt.Color(204, 204, 204));
         b.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        b.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
 
         b1.setBackground(new java.awt.Color(204, 204, 204));
+        b1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b1.setEnabled(false);
 
         b3.setBackground(new java.awt.Color(204, 204, 204));
+        b3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b3.setEnabled(false);
 
         b2.setBackground(new java.awt.Color(204, 204, 204));
+        b2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b2.setEnabled(false);
 
         b10.setBackground(new java.awt.Color(204, 204, 204));
+        b10.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b10.setEnabled(false);
 
         b11.setBackground(new java.awt.Color(204, 204, 204));
+        b11.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b11.setEnabled(false);
 
         b12.setBackground(new java.awt.Color(204, 204, 204));
+        b12.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b12.setEnabled(false);
 
         b19.setBackground(new java.awt.Color(204, 204, 204));
+        b19.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b19.setEnabled(false);
 
         b20.setBackground(new java.awt.Color(204, 204, 204));
+        b20.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b20.setEnabled(false);
 
         b21.setBackground(new java.awt.Color(204, 204, 204));
+        b21.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b21.setEnabled(false);
 
         javax.swing.GroupLayout bLayout = new javax.swing.GroupLayout(b);
@@ -218,32 +228,42 @@ public class Ventana extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
 
         b4.setBackground(new java.awt.Color(255, 255, 255));
+        b4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b4.setEnabled(false);
 
         b5.setBackground(new java.awt.Color(255, 255, 255));
+        b5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b5.setEnabled(false);
 
         b6.setBackground(new java.awt.Color(255, 255, 255));
+        b6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b6.setEnabled(false);
 
         b13.setBackground(new java.awt.Color(255, 255, 255));
+        b13.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b13.setEnabled(false);
 
         b14.setBackground(new java.awt.Color(255, 255, 255));
+        b14.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b14.setEnabled(false);
 
         b15.setBackground(new java.awt.Color(255, 255, 255));
+        b15.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b15.setEnabled(false);
 
         b22.setBackground(new java.awt.Color(255, 255, 255));
+        b22.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b22.setEnabled(false);
 
         b23.setBackground(new java.awt.Color(255, 255, 255));
+        b23.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b23.setEnabled(false);
 
         b24.setBackground(new java.awt.Color(255, 255, 255));
+        b24.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b24.setEnabled(false);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -297,32 +317,42 @@ public class Ventana extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(204, 204, 204));
         jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel4.setForeground(new java.awt.Color(204, 204, 204));
+        jPanel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
 
         b7.setBackground(new java.awt.Color(204, 204, 204));
+        b7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b7.setEnabled(false);
 
         b8.setBackground(new java.awt.Color(204, 204, 204));
+        b8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b8.setEnabled(false);
 
         b9.setBackground(new java.awt.Color(204, 204, 204));
+        b9.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b9.setEnabled(false);
 
         b16.setBackground(new java.awt.Color(204, 204, 204));
+        b16.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b16.setEnabled(false);
 
         b17.setBackground(new java.awt.Color(204, 204, 204));
+        b17.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b17.setEnabled(false);
 
         b18.setBackground(new java.awt.Color(204, 204, 204));
+        b18.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b18.setEnabled(false);
 
         b25.setBackground(new java.awt.Color(204, 204, 204));
+        b25.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b25.setEnabled(false);
 
         b26.setBackground(new java.awt.Color(204, 204, 204));
+        b26.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b26.setEnabled(false);
 
         b27.setBackground(new java.awt.Color(204, 204, 204));
+        b27.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b27.setEnabled(false);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
@@ -377,32 +407,42 @@ public class Ventana extends javax.swing.JFrame {
 
         jPanel7.setBackground(new java.awt.Color(204, 204, 204));
         jPanel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
 
         b31.setBackground(new java.awt.Color(204, 204, 204));
+        b31.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b31.setEnabled(false);
 
         b32.setBackground(new java.awt.Color(204, 204, 204));
+        b32.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b32.setEnabled(false);
 
         b33.setBackground(new java.awt.Color(204, 204, 204));
+        b33.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b33.setEnabled(false);
 
         b40.setBackground(new java.awt.Color(204, 204, 204));
+        b40.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b40.setEnabled(false);
 
         b41.setBackground(new java.awt.Color(204, 204, 204));
+        b41.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b41.setEnabled(false);
 
         b42.setBackground(new java.awt.Color(204, 204, 204));
+        b42.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b42.setEnabled(false);
 
         b49.setBackground(new java.awt.Color(204, 204, 204));
+        b49.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b49.setEnabled(false);
 
         b50.setBackground(new java.awt.Color(204, 204, 204));
+        b50.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b50.setEnabled(false);
 
         b51.setBackground(new java.awt.Color(204, 204, 204));
+        b51.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b51.setEnabled(false);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
@@ -457,32 +497,42 @@ public class Ventana extends javax.swing.JFrame {
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
         jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
 
         b28.setBackground(new java.awt.Color(255, 255, 255));
+        b28.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b28.setEnabled(false);
 
         b29.setBackground(new java.awt.Color(255, 255, 255));
+        b29.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b29.setEnabled(false);
 
         b30.setBackground(new java.awt.Color(255, 255, 255));
+        b30.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b30.setEnabled(false);
 
         b37.setBackground(new java.awt.Color(255, 255, 255));
+        b37.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b37.setEnabled(false);
 
         b38.setBackground(new java.awt.Color(255, 255, 255));
+        b38.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b38.setEnabled(false);
 
         b39.setBackground(new java.awt.Color(255, 255, 255));
+        b39.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b39.setEnabled(false);
 
         b46.setBackground(new java.awt.Color(255, 255, 255));
+        b46.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b46.setEnabled(false);
 
         b47.setBackground(new java.awt.Color(255, 255, 255));
+        b47.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b47.setEnabled(false);
 
         b48.setBackground(new java.awt.Color(255, 255, 255));
+        b48.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b48.setEnabled(false);
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
@@ -535,32 +585,42 @@ public class Ventana extends javax.swing.JFrame {
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
 
         b34.setBackground(new java.awt.Color(255, 255, 255));
+        b34.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b34.setEnabled(false);
 
         b35.setBackground(new java.awt.Color(255, 255, 255));
+        b35.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b35.setEnabled(false);
 
         b36.setBackground(new java.awt.Color(255, 255, 255));
+        b36.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b36.setEnabled(false);
 
         b43.setBackground(new java.awt.Color(255, 255, 255));
+        b43.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b43.setEnabled(false);
 
         b44.setBackground(new java.awt.Color(255, 255, 255));
+        b44.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b44.setEnabled(false);
 
         b45.setBackground(new java.awt.Color(255, 255, 255));
+        b45.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b45.setEnabled(false);
 
         b52.setBackground(new java.awt.Color(255, 255, 255));
+        b52.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b52.setEnabled(false);
 
         b53.setBackground(new java.awt.Color(255, 255, 255));
+        b53.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b53.setEnabled(false);
 
         b54.setBackground(new java.awt.Color(255, 255, 255));
+        b54.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b54.setEnabled(false);
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
@@ -613,32 +673,42 @@ public class Ventana extends javax.swing.JFrame {
 
         jPanel8.setBackground(new java.awt.Color(204, 204, 204));
         jPanel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
 
         b55.setBackground(new java.awt.Color(204, 204, 204));
+        b55.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b55.setEnabled(false);
 
         b56.setBackground(new java.awt.Color(204, 204, 204));
+        b56.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b56.setEnabled(false);
 
         b57.setBackground(new java.awt.Color(204, 204, 204));
+        b57.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b57.setEnabled(false);
 
         b64.setBackground(new java.awt.Color(204, 204, 204));
+        b64.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b64.setEnabled(false);
 
         b65.setBackground(new java.awt.Color(204, 204, 204));
+        b65.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b65.setEnabled(false);
 
         b66.setBackground(new java.awt.Color(204, 204, 204));
+        b66.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b66.setEnabled(false);
 
         b73.setBackground(new java.awt.Color(204, 204, 204));
+        b73.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b73.setEnabled(false);
 
         b74.setBackground(new java.awt.Color(204, 204, 204));
+        b74.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b74.setEnabled(false);
 
         b75.setBackground(new java.awt.Color(204, 204, 204));
+        b75.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b75.setEnabled(false);
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
@@ -691,32 +761,42 @@ public class Ventana extends javax.swing.JFrame {
 
         jPanel9.setBackground(new java.awt.Color(204, 204, 204));
         jPanel9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
 
         b61.setBackground(new java.awt.Color(204, 204, 204));
+        b61.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b61.setEnabled(false);
 
         b62.setBackground(new java.awt.Color(204, 204, 204));
+        b62.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b62.setEnabled(false);
 
         b63.setBackground(new java.awt.Color(204, 204, 204));
+        b63.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b63.setEnabled(false);
 
         b70.setBackground(new java.awt.Color(204, 204, 204));
+        b70.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b70.setEnabled(false);
 
         b71.setBackground(new java.awt.Color(204, 204, 204));
+        b71.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b71.setEnabled(false);
 
         b72.setBackground(new java.awt.Color(204, 204, 204));
+        b72.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b72.setEnabled(false);
 
         b79.setBackground(new java.awt.Color(204, 204, 204));
+        b79.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b79.setEnabled(false);
 
         b80.setBackground(new java.awt.Color(204, 204, 204));
+        b80.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b80.setEnabled(false);
 
         b81.setBackground(new java.awt.Color(204, 204, 204));
+        b81.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b81.setEnabled(false);
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
@@ -769,32 +849,42 @@ public class Ventana extends javax.swing.JFrame {
 
         jPanel10.setBackground(new java.awt.Color(255, 255, 255));
         jPanel10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel10.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
 
         b58.setBackground(new java.awt.Color(255, 255, 255));
+        b58.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b58.setEnabled(false);
 
         b59.setBackground(new java.awt.Color(255, 255, 255));
+        b59.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b59.setEnabled(false);
 
         b60.setBackground(new java.awt.Color(255, 255, 255));
+        b60.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b60.setEnabled(false);
 
         b67.setBackground(new java.awt.Color(255, 255, 255));
+        b67.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b67.setEnabled(false);
 
         b68.setBackground(new java.awt.Color(255, 255, 255));
+        b68.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b68.setEnabled(false);
 
         b69.setBackground(new java.awt.Color(255, 255, 255));
+        b69.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b69.setEnabled(false);
 
         b76.setBackground(new java.awt.Color(255, 255, 255));
+        b76.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b76.setEnabled(false);
 
         b77.setBackground(new java.awt.Color(255, 255, 255));
+        b77.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b77.setEnabled(false);
 
         b78.setBackground(new java.awt.Color(255, 255, 255));
+        b78.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         b78.setEnabled(false);
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
@@ -980,6 +1070,7 @@ public class Ventana extends javax.swing.JFrame {
                 if (botones[i][j].isEnabled()) {
                     //botones[i][j].setEnabled(false);
                     botones[i][j].setText("");
+                    botones[i][j].setForeground(java.awt.Color.BLACK);
                     sudoku.valores[i][j]=0;
                 }
                 else{

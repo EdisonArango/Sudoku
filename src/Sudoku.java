@@ -29,7 +29,7 @@ public class Sudoku{
         
             for (int i = 0; i < 9; i++) {
                 for (int j = 0; j < 9; j++) {
-                    if (valores[i][j]==0&&valoresActual[i][j]==valores[i][j]) {
+                    if (valores[i][j]==0) {
                         if (actual!=arbol.getRaiz()&&sePuedeAplicarRegla(valoresActual, i, j)==false) {
                             valoresActual[i][j]=0;
                             int [][] valoresClon=valoresActual.clone();
@@ -39,7 +39,7 @@ public class Sudoku{
                             actual=actual.getAnterior();
                             actual.setEstado(valoresClon);
                                 i=actual.iCambio;
-                                j=actual.jCambio-1;
+                                j=actual.jCambio;
                         }
                         else{
                         valoresActual=aplicarRegla(valoresActual, i, j);
