@@ -1,3 +1,2 @@
-SudokuPerez
+Sudoku
 ===========
-Sudoku de Perez para Ganarme $70.000
