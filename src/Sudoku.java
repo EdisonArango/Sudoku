@@ -1,6 +1,6 @@
 
-import Arbol.Arbol;
-import Arbol.NodoArbol;
+import Tree.Arbol;
+import Tree.NodoArbol;
 import java.util.ArrayList;
 
 public class Sudoku{
